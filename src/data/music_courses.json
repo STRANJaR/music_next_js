@@ -9,7 +9,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "/guitar.png" 
       },
       {
         "id": 2,
