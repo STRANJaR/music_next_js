@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Spotlight } from './ui/Spotlight';
+import { Button } from "./ui/moving-border";
 
 function HeroSection() {
   return (
@@ -31,7 +32,14 @@ function HeroSection() {
             </p>
 
             <div className='mt-4'>
-                <Link href={'/courses'} >Explore Courses</Link>
+                <Link href={'/courses'} >
+                <Button
+                    borderRadius="1.75rem"
+                    className="bg-white dark:bg-transparent text-black dark:text-white border-neutral-200 dark:border-slate-800"         
+                >
+                    Explore Courses
+                </Button>
+                </Link>
             </div>
         </div>
     </div>
