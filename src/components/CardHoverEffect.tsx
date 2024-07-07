@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { HoverEffect } from "./ui/card-hover-effect";
 import Link from 'next/link';
