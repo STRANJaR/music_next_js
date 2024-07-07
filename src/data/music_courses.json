@@ -5,7 +5,7 @@
         "id": 1,
         "title": "Guitar Fundamentals",
         "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course. lorem word this is only for testing purpose.",
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
@@ -29,7 +29,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "https://e7.pngegg.com/pngimages/424/512/png-clipart-clarinet-woodwind-instrument-musical-instruments-saxophone-musical-instruments-saxophone-piccolo.png" 
       },
       {
         "id": 4,
@@ -95,7 +95,7 @@
         "id": 10,
         "title": "Blues Guitar Techniques",
         "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
+        "description": "Discover the techniques of blues guitar to add soul and depth to your playing. lorem word this is only for testing purpose.",
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,

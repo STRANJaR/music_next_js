@@ -3,7 +3,7 @@ import courseData from '@/data/music_courses.json'
 import Link from 'next/link'
 import { BackgroundGradient } from './ui/background-gradient';
 import Image from "next/image";
-// import {Guitar} from '@/data/guitar.png'
+import  guitar  from '@/data/guitar.png'
 
 interface Course{
         id: number,
@@ -39,10 +39,10 @@ function FeaturedCourses() {
                     className='flex justify-center'>
                         <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                             <Image
-                            src={''}
-                            alt={course.title}
-                            height="300"
-                            width="400"
+                            src={guitar}
+                            alt={'alt'}
+                            // height="400"
+                            // width="400"
                             className="object-contain"
                             />
 
