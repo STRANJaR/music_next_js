@@ -12,7 +12,7 @@ function Navbar({ className }: { className?: string }) {
 
   return (
     <div
-    className={cn("fixed dark:bg-transparent top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+    className={cn("fixed dark:bg-transparent backdrop:blur-lg text-sm top-0 inset-x-0 w-full mx-auto z-50", className)}
     >
         <Menu setActive={setActive}>
             <Link href={"/"}>

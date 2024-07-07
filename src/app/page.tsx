@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import MusicSchoolTestimonialCards from "@/components/TestimonialCards";
 import CardHoverEffect from "@/components/CardHoverEffect";
 import Instructor from "@/components/Instructor";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <MusicSchoolTestimonialCards/>
       <CardHoverEffect/>
       <Instructor/>
+      <Footer/>
     </main>
   );
 }
