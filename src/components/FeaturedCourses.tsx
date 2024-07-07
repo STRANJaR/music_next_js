@@ -39,10 +39,10 @@ function FeaturedCourses() {
                     className='flex justify-center'>
                         <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
                             <Image
-                            src={guitar}
+                            src={course.image}
                             alt={'alt'}
-                            // height="400"
-                            // width="400"
+                            height="400"
+                            width="400"
                             className="object-contain"
                             />
 
