@@ -43,6 +43,16 @@ function Navbar({ className }: { className?: string }) {
                     
                     </MenuItem>
                 </Link>
+
+                {/* Developer  */}
+                <Link href={"/developer"}>
+                    <MenuItem
+                    setActive={setActive} active={active}
+                    item="Developer"
+                    >
+                    
+                    </MenuItem>
+                </Link>
         </Menu>
     </div>
   )
