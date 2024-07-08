@@ -18,7 +18,7 @@ interface Course{
 function FeaturedCourses() {
     const featuredCourses = courseData.courses.filter((course:Course) => course.isFeatured)
   return (
-    <div className="py-12 bg-gray-900">
+    <div className="py-12">
         <div>
             <div className="text-center">
                 <h2
@@ -43,7 +43,7 @@ function FeaturedCourses() {
                             alt={'alt'}
                             height="400"
                             width="400"
-                            className="object-contain"
+                            className="object-contain rounded-md"
                             />
 
                             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
